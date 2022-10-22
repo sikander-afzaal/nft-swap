@@ -1,0 +1,119 @@
+.dash {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  grid-area: main;
+}
+.dash .top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  width: 100%;
+  padding-inline: 20px;
+}
+.left-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+.head-tab {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 100vh;
+  color: white;
+  width: 230px;
+  opacity: 0.4;
+}
+.active-tab {
+  opacity: 1;
+}
+.head-tab > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.head-tab p {
+  font-size: 17px;
+  user-select: none;
+}
+.create-swap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gold);
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 100vh;
+  cursor: pointer;
+  width: 230px;
+  border: none;
+}
+.create-swap img {
+  width: 20px;
+  object-fit: contain;
+}
+.create-swap p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.top-bar .connected {
+  position: static;
+  width: 210px;
+  height: 45px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.connected h2 {
+  line-height: 1;
+  padding: 0px;
+}
+.top-bar .connected .dot {
+  background-color: lightgreen;
+}
+.bottom-dash {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 1400px;
+  padding-inline: 20px;
+}
+@media screen and (max-width: 1400px) {
+  .head-tab {
+    width: 180px;
+  }
+  .create-swap {
+    width: 180px;
+  }
+  .head-tab p {
+    font-size: 14px;
+  }
+  .create-swap p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .dash .top-bar {
+    padding-top: 0px;
+  }
+  .dash .top-bar {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  .dash .left-top {
+    width: 1000px;
+  }
+  .top-bar .connected {
+    position: absolute;
+  }
+}

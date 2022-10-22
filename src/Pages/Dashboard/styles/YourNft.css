@@ -1,0 +1,177 @@
+.your-nft {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.your-nft > h1 {
+  color: var(--gold);
+  font-size: 48px;
+}
+.your-nft > p {
+  font-size: 25px;
+  color: white;
+  max-width: 830px;
+}
+.steps-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.left-step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.left-step > h2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background-color: var(--gold);
+}
+.desc-step {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4px;
+  color: white;
+}
+.desc-step > p {
+  opacity: 0.3;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.steps-div .btn-div button {
+  width: 129px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  height: 62px;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.back {
+  background-color: var(--gold);
+  border: none;
+}
+.next {
+  border: 1px solid #1b1e24;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.2);
+}
+.between-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.filter {
+  color: white;
+  border-radius: 100vh;
+  font-size: 18px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.filter img {
+  width: 15px;
+  cursor: pointer;
+}
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 100vh;
+  overflow: hidden;
+  padding-right: 15px;
+}
+.input-div input {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 18px;
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.input-div input:focus {
+  border: none;
+  outline: none;
+}
+.input-div img {
+  width: 20px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  .your-nft > h1 {
+    font-size: 26px;
+  }
+  .your-nft > p {
+    font-size: 16px;
+  }
+  .steps-div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .between-row {
+    gap: 40px;
+  }
+  .between-row .filters {
+    overflow-x: auto;
+    justify-content: flex-start;
+  }
+  .filter {
+    min-width: 140px;
+  }
+  .btn-div {
+    width: 100%;
+  }
+  .steps-div .btn-div button {
+    width: 100%;
+    height: 45px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .between-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .between-row .filters {
+    max-width: 100%;
+  }
+  .input-div {
+    width: 100%;
+  }
+}

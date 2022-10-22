@@ -26,8 +26,9 @@
   background-color: red;
   border-radius: 50%;
 }
-@media screen and (max-width: 1117px) {
+@media screen and (max-width: 1200px) {
   .App {
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr;
     row-gap: 20px;
     grid-template-areas:
