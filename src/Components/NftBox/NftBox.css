@@ -1,0 +1,26 @@
+.nft-box {
+  width: 100%;
+  max-width: 270px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nft-box img {
+  width: 100%;
+  object-fit: contain;
+}
+.nft-box h2 {
+  color: white;
+  margin: 20px 0px;
+  padding-inline: 20px;
+}
+.nft-box p {
+  padding-inline: 20px;
+  color: rgba(255, 255, 255, 0.2);
+}

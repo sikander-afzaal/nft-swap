@@ -1,3 +1,4 @@
+import NftBox from "../../Components/NftBox/NftBox";
 import "./styles/YourNft.css";
 
 const YourNft = () => {
@@ -40,6 +41,17 @@ const YourNft = () => {
           <input type="text" placeholder="Search Your NFTs" />
           <img src="/assets/search.png" alt="" />
         </div>
+      </div>
+      <div className="nft-row">
+        <div className="add-bnb">
+          <div className="input-div">
+            <input type="number" placeholder="0.00" />
+            <img src="/assets/dabba.png" alt="" />
+          </div>
+          <p>Here you can add BNB to the swap</p>
+        </div>
+        <NftBox />
+        <NftBox />
       </div>
     </div>
   );
