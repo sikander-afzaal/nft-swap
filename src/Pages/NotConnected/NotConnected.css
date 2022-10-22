@@ -1,0 +1,101 @@
+.not-connected {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  grid-area: main;
+  height: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+  padding: 70px 0px;
+  padding-top: 130px;
+}
+.connect-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  gap: 30px;
+  background-color: var(--black);
+  width: 95%;
+  max-width: 640px;
+  padding: 70px 20px;
+  position: relative;
+}
+.connect-box::before {
+  content: "";
+  background-color: var(--gold);
+  position: absolute;
+  max-width: 400px;
+  width: 100%;
+  height: 200px;
+  filter: blur(200px);
+  z-index: -1;
+}
+.connect-box > img {
+  background-color: var(--gold);
+  width: 269px;
+  height: 269px;
+  object-fit: contain;
+  border-radius: 50%;
+  padding: 35px;
+  box-sizing: border-box;
+}
+.connect-box > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.connect-box h2 {
+  color: white;
+  font-size: 22px;
+}
+.connect-box p {
+  color: var(--gray);
+  font-size: 22px;
+}
+.connect-btn {
+  width: 90%;
+  background-color: var(--gold);
+  height: 75px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 1117px) {
+  .not-connected {
+    padding: 0px;
+    align-items: flex-start;
+    height: auto;
+    max-height: none;
+    min-height: auto;
+    overflow: visible;
+  }
+}
+@media screen and (max-width: 509px) {
+  .connect-box h2,
+  .connect-box p {
+    font-size: 16px;
+  }
+  .connect-box > div {
+    gap: 5px;
+  }
+  .connect-btn {
+    height: 55px;
+    font-size: 16px;
+    max-width: 300px;
+    width: 100%;
+  }
+  .connect-box > img {
+    max-width: 209px;
+    width: 100%;
+    height: 209px;
+  }
+}

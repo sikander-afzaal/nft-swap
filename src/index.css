@@ -1,0 +1,14 @@
+:root {
+  --gold: #eabc4e;
+  --gray: #595e69;
+  --black: #060607;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: var(--black);
+}
