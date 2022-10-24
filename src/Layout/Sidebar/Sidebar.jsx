@@ -1,6 +1,7 @@
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./Sidebar.css";
 
 const Sidebar = () => {
@@ -27,10 +28,14 @@ const Sidebar = () => {
           icon={openSide ? faXmark : faBars}
           className="menu-toggle"
         />
-        <img src="/assets/logo.png" alt="" />
+        <Link end to="/dash">
+          <img src="/assets/logo.png" alt="" />
+        </Link>
       </div>
       <div className={`sidebar ${openSide ? "open-side" : ""}`}>
-        <img src="/assets/logo.png" alt="" />
+        <Link end to="/dash">
+          <img src="/assets/logo.png" alt="" />
+        </Link>
         <div className="main-links">
           <a onClick={() => setOpenSide(false)} href="#">
             <img src="/assets/swap.png" alt="" />
