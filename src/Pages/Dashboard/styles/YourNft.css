@@ -127,8 +127,8 @@
 }
 .add-bnb {
   width: 100%;
-  min-height: 376px;
-  max-width: 270px;
+  min-height: 300px;
+  max-width: 220px;
   display: flex;
   justify-content: center;
   align-items: center;

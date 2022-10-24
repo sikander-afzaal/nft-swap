@@ -1,10 +1,18 @@
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Sidebar.css";
 
 const Sidebar = () => {
   const [openSide, setOpenSide] = useState(false);
+  useEffect(() => {
+    if (openSide) {
+      document.querySelector("body").style.overflow = "hidden";
+    } else {
+      document.querySelector("body").style.overflow = "auto";
+    }
+  }, [openSide]);
+
   return (
     <>
       <div
@@ -26,15 +34,15 @@ const Sidebar = () => {
         <div className="main-links">
           <a onClick={() => setOpenSide(false)} href="#">
             <img src="/assets/swap.png" alt="" />
-            Swap
+            <p>Swap</p>
           </a>
           <a onClick={() => setOpenSide(false)} href="#">
             <img src="/assets/raffles.png" alt="" />
-            Raffles
+            <p>Raffles</p>
           </a>
           <a onClick={() => setOpenSide(false)} href="#">
             <img src="/assets/telegram.png" alt="" />
-            Telegram
+            <p>Telegram</p>
           </a>
         </div>
       </div>

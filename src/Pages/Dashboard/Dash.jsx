@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 import "./styles/Dash.css";
 
 const Dash = () => {
@@ -6,31 +6,47 @@ const Dash = () => {
     <div className="dash">
       <div className="top-bar">
         <div className="left-top">
-          <Link to={"/dash"} className="head-tab active-tab">
+          <NavLink
+            end
+            to={"/dash"}
+            className={({ isActive }) =>
+              isActive ? "active-tab head-tab" : "head-tab"
+            }
+          >
             <div>
               <img src="/assets/folder.png" alt="" />
               <p>Your NFTs</p>
             </div>
             <p>1</p>
-          </Link>
-          <Link to={"/dash/open-swap"} className="head-tab">
+          </NavLink>
+          <NavLink
+            to={"/dash/open-swap"}
+            className={({ isActive }) =>
+              isActive ? "active-tab head-tab" : "head-tab"
+            }
+          >
             <div>
               <img src="/assets/folder.png" alt="" />
               <p>Open Swaps</p>
             </div>
             <p>1</p>
-          </Link>
-          <Link to={"/dash"} className="head-tab">
+          </NavLink>
+          <NavLink
+            to={"/dash/recent-swap"}
+            className={({ isActive }) =>
+              isActive ? "active-tab head-tab" : "head-tab"
+            }
+          >
             <div>
               <img src="/assets/folder.png" alt="" />
               <p>Recent Swaps</p>
             </div>
             <p>1</p>
-          </Link>
-          <button className="create-swap">
+          </NavLink>
+          <Link to={"/dash/create-swap"} className="create-swap">
             <p>Create A Swap</p>
             <img src="/assets/logo-inverted.png" alt="" />
-          </button>
+          </Link>
         </div>
         <div className="connected-address connected">
           <div className="dot"></div>
