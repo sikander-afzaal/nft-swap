@@ -2,13 +2,11 @@
   background-color: #ff2525;
   color: white;
   max-width: 120px;
-  height: 61px;
 }
 .steps-div .btn-div .accept {
   background-color: #0fbc0f;
   color: white;
   width: 172px;
-  height: 61px;
   max-width: none;
 }
 .flex-col {
