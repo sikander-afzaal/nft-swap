@@ -38,15 +38,19 @@ const Sidebar = () => {
         </Link>
         <div className="main-links">
           <a onClick={() => setOpenSide(false)} href="#">
-            <img src="/assets/swap.png" alt="" />
+            <img
+              style={{ transform: "rotate(-90deg)" }}
+              src="/assets/swap.svg"
+              alt=""
+            />
             <p>Swap</p>
           </a>
           <a onClick={() => setOpenSide(false)} href="#">
-            <img src="/assets/raffles.png" alt="" />
+            <img src="/assets/raffle.svg" alt="" />
             <p>Raffles</p>
           </a>
           <a onClick={() => setOpenSide(false)} href="#">
-            <img src="/assets/telegram.png" alt="" />
+            <img src="/assets/telegram.svg" alt="" />
             <p>Telegram</p>
           </a>
         </div>
