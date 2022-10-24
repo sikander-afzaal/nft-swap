@@ -1,0 +1,92 @@
+.steps-div .btn-div .cancel {
+  background-color: #ff2525;
+  color: white;
+  max-width: 120px;
+  height: 61px;
+}
+.steps-div .btn-div .accept {
+  background-color: #0fbc0f;
+  color: white;
+  width: 172px;
+  height: 61px;
+  max-width: none;
+}
+.flex-col {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  align-self: flex-start;
+  width: 100%;
+}
+.head-offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.head-offer h1 {
+  color: var(--gold);
+  width: 100%;
+  font-size: 25px;
+}
+.head-offer h2 {
+  min-width: 120px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  color: white;
+  font-size: 18px;
+  padding: 8px 30px;
+  font-weight: 400;
+}
+.offered-nft {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.gap {
+  gap: 100px;
+}
+.add-more {
+  background-color: var(--gold);
+  border: none;
+  color: black;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 10px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.note {
+  background-color: var(--gold);
+  color: black;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 10px;
+  padding: 15px 30px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
+@media screen and (max-width: 463px) {
+  .head-offer {
+    display: block;
+  }
+  .head-offer h1 {
+    display: block;
+  }
+  .head-offer h2 {
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 20px;
+  }
+}

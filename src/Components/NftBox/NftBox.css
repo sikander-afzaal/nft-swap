@@ -8,9 +8,22 @@
   overflow: hidden;
   border-radius: 10px;
   flex-direction: column;
+  position: relative;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
-
+.approve {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  border-radius: 100vh;
+  background-color: var(--gold);
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 5px 20px;
+  border: none;
+}
 .nft-box img {
   width: 100%;
   object-fit: contain;

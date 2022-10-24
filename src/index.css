@@ -1,5 +1,5 @@
 :root {
-  --gold: #eabc4e;
+  --gold: #ffbf25;
   --gray: #595e69;
   --black: #060607;
 }
@@ -11,4 +11,21 @@
 }
 body {
   background-color: var(--black);
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.title {
+  color: var(--gold);
+  font-size: 48px;
+}
+.desc {
+  font-size: 20px;
+  color: white;
+  max-width: 830px;
 }

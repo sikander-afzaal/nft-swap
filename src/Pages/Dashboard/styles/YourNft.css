@@ -1,20 +1,3 @@
-.your-nft {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  width: 100%;
-  gap: 10px;
-}
-.your-nft > h1 {
-  color: var(--gold);
-  font-size: 48px;
-}
-.your-nft > p {
-  font-size: 25px;
-  color: white;
-  max-width: 830px;
-}
 .steps-div {
   display: flex;
   justify-content: space-between;
@@ -32,8 +15,8 @@
   gap: 20px;
 }
 .left-step > h2 {
-  width: 50px;
-  height: 50px;
+  min-width: 50px;
+  min-height: 50px;
   border-radius: 50%;
   display: grid;
   place-items: center;
@@ -66,6 +49,7 @@
   height: 62px;
   border-radius: 15px;
   font-size: 20px;
+  border: none;
   cursor: pointer;
 }
 .back {
@@ -160,10 +144,10 @@
   text-align: center;
 }
 @media screen and (max-width: 1000px) {
-  .your-nft > h1 {
-    font-size: 26px;
+  .section .title {
+    font-size: 28px;
   }
-  .your-nft > p {
+  .section .desc {
     font-size: 16px;
   }
   .steps-div {

@@ -1,0 +1,10 @@
+.flex-col .input-div {
+  max-width: none;
+  width: 100%;
+  height: 60px;
+  padding-left: 20px;
+}
+.flex-col p {
+  color: white;
+  line-height: 1.5;
+}

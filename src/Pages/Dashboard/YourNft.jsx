@@ -3,9 +3,9 @@ import "./styles/YourNft.css";
 
 const YourNft = () => {
   return (
-    <div className="your-nft">
-      <h1>Select Your NFTs</h1>
-      <p>
+    <div className="section">
+      <h1 className="title">Select Your NFTs</h1>
+      <p className="desc">
         Select the NFTs you want to swap. You can also add BNB to the swap. Use
         the search bar to find certain NFTs. Once ready, hit “Next”.
       </p>

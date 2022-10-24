@@ -32,6 +32,7 @@
   color: white;
   width: 230px;
   opacity: 0.4;
+  text-decoration: none;
 }
 .active-tab {
   opacity: 1;
@@ -87,6 +88,7 @@
   width: 100%;
   max-width: 1400px;
   padding-inline: 20px;
+  padding-bottom: 20px;
 }
 @media screen and (max-width: 1400px) {
   .head-tab {
