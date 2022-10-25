@@ -60,6 +60,9 @@
   font-size: 17px;
   user-select: none;
 }
+.head-tab img {
+  width: 15px;
+}
 .create-swap {
   display: flex;
   justify-content: center;

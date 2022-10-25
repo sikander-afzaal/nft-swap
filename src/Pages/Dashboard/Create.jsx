@@ -59,7 +59,7 @@ const Create = () => {
             <h1>Recipient</h1>
           </div>
           <div className="input-div">
-            <img src="/assets/wallet.png" alt="" />
+            <img src="/assets/wallet.svg" alt="" />
             <input type="text" placeholder="Enter Recipient’s Wallet Address" />
           </div>
           <p>

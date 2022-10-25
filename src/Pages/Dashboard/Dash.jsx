@@ -14,7 +14,7 @@ const Dash = () => {
             }
           >
             <div>
-              <img src="/assets/folder.png" alt="" />
+              <img src="/assets/folder.svg" alt="" />
               <p>Your NFTs</p>
             </div>
             <p>1</p>
@@ -26,7 +26,7 @@ const Dash = () => {
             }
           >
             <div>
-              <img src="/assets/folder.png" alt="" />
+              <img src="/assets/folder.svg" alt="" />
               <p>Open Swaps</p>
             </div>
             <p>1</p>
@@ -38,7 +38,7 @@ const Dash = () => {
             }
           >
             <div>
-              <img src="/assets/folder.png" alt="" />
+              <img src="/assets/folder.svg" alt="" />
               <p>Recent Swaps</p>
             </div>
             <p>1</p>

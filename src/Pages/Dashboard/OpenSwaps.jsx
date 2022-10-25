@@ -16,7 +16,7 @@ const OpenSwaps = () => {
               <h3>BNB Added</h3>
               <div className="input-div">
                 <input type="number" placeholder="0.00" />
-                <img src="/assets/dabba.png" alt="" />
+                <img src="/assets/bnb.svg" alt="" />
               </div>
             </div>
             <div className="open-col">
@@ -27,7 +27,7 @@ const OpenSwaps = () => {
             </div>
           </div>
           <h4>
-            <img src="/assets/wallet.png" alt="" /> 0x50001
+            <img src="/assets/wallet.svg" alt="" /> 0x50001
           </h4>
         </div>
         <img src="/assets/logo-inverted.png" alt="" className="swap-img" />
@@ -37,7 +37,7 @@ const OpenSwaps = () => {
               <h3>BNB Added</h3>
               <div className="input-div">
                 <input type="number" placeholder="0.00" />
-                <img src="/assets/dabba.png" alt="" />
+                <img src="/assets/bnb.svg" alt="" />
               </div>
             </div>
             <div className="open-col">
@@ -48,7 +48,7 @@ const OpenSwaps = () => {
             </div>
           </div>
           <h4>
-            <img src="/assets/wallet.png" alt="" /> 0x50001
+            <img src="/assets/wallet.svg" alt="" /> 0x50001
           </h4>
         </div>
       </div>

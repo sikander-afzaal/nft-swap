@@ -111,6 +111,9 @@
   font-size: 14px;
   color: rgba(255, 255, 255, 0.2);
 }
+.first-col h4 img {
+  width: 25px;
+}
 @media screen and (max-width: 1380px) {
   .open-col h3 {
     font-size: 14px;

@@ -46,7 +46,7 @@ const YourNft = () => {
         <div className="add-bnb">
           <div className="input-div">
             <input type="number" placeholder="0.00" />
-            <img src="/assets/dabba.png" alt="" />
+            <img src="/assets/bnb.svg" alt="" />
           </div>
           <p>Here you can add BNB to the swap</p>
         </div>
