@@ -98,8 +98,8 @@
   line-height: 1;
   padding: 0px;
 }
-.top-bar .connected .dot {
-  background-color: lightgreen;
+.connected .dot {
+  background-color: lightgreen !important;
 }
 .bottom-dash {
   margin-top: 50px;

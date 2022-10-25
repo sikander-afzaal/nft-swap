@@ -9,6 +9,7 @@ import Resolve from "./Pages/Dashboard/Resolve";
 import Review from "./Pages/Dashboard/Review";
 import YourNft from "./Pages/Dashboard/YourNft";
 import NotConnected from "./Pages/NotConnected/NotConnected";
+import SwapCreated from "./Pages/SwapCreated/SwapCreated";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Sidebar />
       <Routes>
         <Route element={<NotConnected />} path="/" />
+        <Route element={<SwapCreated />} path="/swap-created" />
         <Route element={<Dash />} path="/dash">
           <Route element={<OwnedNft />} path="" index />
           <Route element={<YourNft />} path="select-nft" />
