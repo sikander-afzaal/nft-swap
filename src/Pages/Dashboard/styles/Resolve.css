@@ -12,7 +12,6 @@
 .border .btn-div .cancel {
   background-color: #ff2525;
   color: white;
-  min-width: 160px;
   width: 100% !important;
   max-width: none !important;
 }

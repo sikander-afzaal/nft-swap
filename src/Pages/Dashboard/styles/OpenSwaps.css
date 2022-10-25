@@ -52,7 +52,7 @@
 }
 .open-col h3 {
   font-weight: 600;
-  font-size: 17px;
+  font-size: 15px;
 }
 .first-col h4 {
   color: white;
@@ -62,7 +62,7 @@
   gap: 10px;
   padding-top: 20px;
   padding-left: 10px;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 400;
 }
 .swap-img {
@@ -112,7 +112,7 @@
   color: rgba(255, 255, 255, 0.2);
 }
 .first-col h4 img {
-  width: 25px;
+  width: 20px;
 }
 @media screen and (max-width: 1380px) {
   .open-col h3 {

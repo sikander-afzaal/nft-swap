@@ -40,15 +40,15 @@
   gap: 10px;
 }
 .btn-div button {
-  padding-inline: 20px;
+  padding-inline: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   font-weight: 500;
   height: 45px;
-  border-radius: 15px;
-  font-size: 20px;
+  border-radius: 10px;
+  font-size: 18px;
   border: none;
   cursor: pointer;
 }

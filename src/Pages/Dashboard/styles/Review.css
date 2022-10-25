@@ -6,7 +6,6 @@
 .steps-div .btn-div .accept {
   background-color: #0fbc0f;
   color: white;
-  width: 172px;
   max-width: none;
 }
 .flex-col {
@@ -86,9 +85,16 @@
   .head-offer h1 {
     display: block;
   }
+  .flex {
+    gap: 60px;
+  }
   .head-offer h2 {
     margin-top: 20px;
     display: inline-block;
     margin-right: 20px;
+  }
+  .offered-nft {
+    max-height: 550px;
+    overflow-y: auto;
   }
 }
