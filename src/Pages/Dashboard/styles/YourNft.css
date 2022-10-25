@@ -128,7 +128,7 @@
 .add-bnb {
   width: 100%;
   min-height: 300px;
-  max-width: 220px;
+  max-width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -187,5 +187,11 @@
   }
   .input-div {
     width: 100%;
+  }
+  .desc-step h3 {
+    font-size: 18px;
+  }
+  .steps-div .btn-div button {
+    height: 45px;
   }
 }

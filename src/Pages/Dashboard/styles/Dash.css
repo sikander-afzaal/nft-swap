@@ -10,6 +10,15 @@
   max-width: 1400px;
   margin: 0 auto;
 }
+.dash::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.dash {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 .dash .top-bar {
   display: flex;
   justify-content: space-between;
@@ -92,7 +101,7 @@
 .bottom-dash {
   margin-top: 50px;
   width: 100%;
-  max-width: 1400px;
+  max-width: 1200px;
   padding-inline: 20px;
   padding-bottom: 20px;
 }
