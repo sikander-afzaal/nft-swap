@@ -33,7 +33,7 @@
   margin: 20px 0px;
   margin-bottom: 10px;
   padding-inline: 20px;
-  font-size: 22px;
+  font-size: 20px;
 }
 .nft-box p {
   padding-inline: 20px;
@@ -42,5 +42,8 @@
 @media screen and (max-width: 463px) {
   .nft-box {
     height: 250px;
+  }
+  .nft-box h2 {
+    font-size: 18px;
   }
 }

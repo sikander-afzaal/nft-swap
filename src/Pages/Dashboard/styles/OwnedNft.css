@@ -1,0 +1,7 @@
+@media screen and (max-width: 463px) {
+  .nft-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+  }
+}
