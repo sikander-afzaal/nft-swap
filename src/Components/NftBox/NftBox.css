@@ -39,3 +39,8 @@
   padding-inline: 20px;
   color: rgba(255, 255, 255, 0.2);
 }
+@media screen and (max-width: 463px) {
+  .nft-box {
+    height: 250px;
+  }
+}

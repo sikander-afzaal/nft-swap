@@ -94,7 +94,20 @@
     margin-right: 20px;
   }
   .offered-nft {
-    max-height: 550px;
-    overflow-y: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+  }
+  .offered-nft .add-bnb {
+    height: 250px;
+    min-height: 0px;
+    padding-inline: 5px;
+  }
+  .add-bnb .input-div {
+    height: 50px;
+    padding-left: 0px;
+  }
+  .add-bnb .input-div input {
+    font-size: 14px;
   }
 }
