@@ -1,5 +1,6 @@
-import NftBox from "../../Components/NftBox/NftBox";
 import "./styles/YourNft.css";
+
+import NftBox from "../../Components/NftBox/NftBox";
 
 const YourNft = () => {
   return (

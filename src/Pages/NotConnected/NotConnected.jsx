@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
 import "./NotConnected.css";
+
+import { Link } from "react-router-dom";
 
 const NotConnected = () => {
   return (

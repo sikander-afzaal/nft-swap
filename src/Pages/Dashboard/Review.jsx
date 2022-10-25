@@ -1,6 +1,7 @@
+import "./styles/Review.css";
+
 import { Link } from "react-router-dom";
 import NftBox from "../../Components/NftBox/NftBox";
-import "./styles/Review.css";
 
 const Review = () => {
   return (

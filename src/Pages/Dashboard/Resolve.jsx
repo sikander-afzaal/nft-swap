@@ -1,5 +1,6 @@
-import NftBox from "../../Components/NftBox/NftBox";
 import "./styles/Resolve.css";
+
+import NftBox from "../../Components/NftBox/NftBox";
 
 const Resolve = () => {
   return (

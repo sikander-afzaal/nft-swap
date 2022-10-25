@@ -1,8 +1,9 @@
+import "./Sidebar.css";
+import { useEffect, useState } from "react";
+
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./Sidebar.css";
 
 const Sidebar = () => {
   const [openSide, setOpenSide] = useState(false);

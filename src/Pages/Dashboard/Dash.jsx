@@ -1,5 +1,6 @@
-import { Link, NavLink, Outlet } from "react-router-dom";
 import "./styles/Dash.css";
+
+import { Link, NavLink, Outlet } from "react-router-dom";
 
 const Dash = () => {
   return (

@@ -1,4 +1,5 @@
 import "./styles/Create.css";
+
 import NftBox from "../../Components/NftBox/NftBox";
 import { Link } from "react-router-dom";
 
