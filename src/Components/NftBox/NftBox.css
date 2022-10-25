@@ -41,7 +41,8 @@
 }
 @media screen and (max-width: 463px) {
   .nft-box {
-    height: 250px;
+    height: auto;
+    padding-bottom: 20px;
   }
   .nft-box h2 {
     font-size: 18px;
