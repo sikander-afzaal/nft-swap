@@ -1,5 +1,6 @@
 import "./styles/Create.css";
 import NftBox from "../../Components/NftBox/NftBox";
+import { Link } from "react-router-dom";
 
 const Create = () => {
   return (
@@ -48,7 +49,9 @@ const Create = () => {
           <div className="offered-nft">
             <NftBox approve />
           </div>
-          <button className="add-more">Add More NFTs</button>
+          <Link to={"/dash/select-nft"} className="add-more">
+            Add More NFTs
+          </Link>
         </div>
         <img src="/assets/logo-inverted.png" alt="" className="swap-img" />
         <div className="flex-col">

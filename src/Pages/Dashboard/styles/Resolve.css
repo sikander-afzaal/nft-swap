@@ -1,0 +1,25 @@
+.border {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+  height: 80px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  margin: 20px 0px;
+}
+
+.border .btn-div .cancel {
+  background-color: #ff2525;
+  color: white;
+  width: 160px;
+}
+.offered-nft .add-bnb h1 {
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+}
+.offered-nft .add-bnb p {
+  color: rgba(255, 255, 255, 0.2);
+}

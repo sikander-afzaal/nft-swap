@@ -1,26 +1,18 @@
-import { Link } from "react-router-dom";
 import NftBox from "../../Components/NftBox/NftBox";
-import "./styles/Review.css";
+import "./styles/Resolve.css";
 
-const Review = () => {
+const Resolve = () => {
   return (
     <div className="section">
-      <h1 className="title">Review Swap</h1>
+      <h1 className="title">Resolve Swap</h1>
       <p className="desc">
-        Double check the swap details! If you press Accept, After this point the
-        escrow contract will execute the trade.
+        You created a swap offer for 0xc55…000. Now it's their turn. They have
+        to respond to your offer now to make it work.
       </p>
-      <div className="steps-div">
-        <div className="left-step">
-          <h2>2</h2>
-          <div className="desc-step">
-            <h4>Step 2 of 2</h4>
-            <h3>Answering Swap</h3>
-          </div>
-        </div>
+      <div className="border">
         <div className="btn-div">
-          <button className="cancel">Cancel</button>
-          <button className="accept">Accept Swap</button>
+          <button className="back">Back</button>
+          <button className="cancel">Cancel Swap</button>
         </div>
       </div>
       <div className="flex gap">
@@ -37,29 +29,26 @@ const Review = () => {
                 <img src="/assets/dabba.png" alt="" />
               </div>
             </div>
-            <NftBox approve />
+            <NftBox />
           </div>
-          <Link to={"/dash/select-nft"} className="add-more">
-            Add More NFTs
-          </Link>
         </div>
         <img src="/assets/logo-inverted.png" alt="" className="swap-img" />
         <div className="flex-col">
           <div className="head-offer">
             <h1>Offered NFTs</h1>
-            <h2>1 NFTs</h2>
+            <h2>0 BNB</h2>
+            <h2>0 NFTs</h2>
           </div>
           <div className="offered-nft">
-            <NftBox />
+            <div className="add-bnb">
+              <h1>No NFTs Selected</h1>
+              <p>Waiting for 0xc55…4c1 to select the NFTs.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="note">
-        We need to be able to transfer tokens on your behalf. You can always
-        revoke approvals. Please click the 'Approve' button on the NFT
       </div>
     </div>
   );
 };
 
-export default Review;
+export default Resolve;

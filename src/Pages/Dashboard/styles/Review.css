@@ -50,6 +50,9 @@
   gap: 20px;
   flex-wrap: wrap;
 }
+.offered-nft .add-bnb {
+  padding-inline: 20px;
+}
 .gap {
   gap: 100px;
 }
@@ -62,6 +65,7 @@
   border-radius: 10px;
   padding: 10px 30px;
   cursor: pointer;
+  text-decoration: none;
 }
 .note {
   background-color: var(--gold);

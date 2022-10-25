@@ -31,7 +31,9 @@
 .nft-box h2 {
   color: white;
   margin: 20px 0px;
+  margin-bottom: 10px;
   padding-inline: 20px;
+  font-size: 22px;
 }
 .nft-box p {
   padding-inline: 20px;

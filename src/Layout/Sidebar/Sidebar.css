@@ -11,10 +11,9 @@
   grid-area: sidebar;
   border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
-.sidebar > img {
+.sidebar > a > img {
   object-fit: contain;
-  max-width: 100%;
-  margin-bottom: 60px;
+  max-width: 50px;
   cursor: pointer;
   pointer-events: all;
 }
@@ -41,6 +40,7 @@
   color: white;
   text-transform: uppercase;
   text-decoration: none;
+  border-radius: 8px;
 }
 .main-links a p {
   font-size: 0.75rem;
@@ -64,7 +64,7 @@
     width: 100%;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-block: 120px;
+    padding-block: 70px;
     transition: all 1s ease-in-out;
     z-index: 200;
     background-color: rgba(0, 0, 0, 0.8);
@@ -78,7 +78,7 @@
   .open-side {
     left: 0;
   }
-  .sidebar > img {
+  .sidebar > a {
     display: none;
   }
   .mobile-menu {

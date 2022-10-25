@@ -7,6 +7,8 @@
   grid-area: main;
   overflow-y: auto;
   max-height: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 .dash .top-bar {
   display: flex;

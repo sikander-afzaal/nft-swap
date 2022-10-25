@@ -39,7 +39,7 @@
   align-items: center;
   gap: 10px;
 }
-.steps-div .btn-div button {
+.btn-div button {
   width: 129px;
   display: flex;
   justify-content: center;

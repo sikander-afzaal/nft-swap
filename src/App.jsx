@@ -5,6 +5,7 @@ import Create from "./Pages/Dashboard/Create";
 import Dash from "./Pages/Dashboard/Dash";
 import OpenSwaps from "./Pages/Dashboard/OpenSwaps";
 import OwnedNft from "./Pages/Dashboard/OwnedNft";
+import Resolve from "./Pages/Dashboard/Resolve";
 import Review from "./Pages/Dashboard/Review";
 import YourNft from "./Pages/Dashboard/YourNft";
 import NotConnected from "./Pages/NotConnected/NotConnected";
@@ -21,6 +22,7 @@ function App() {
           <Route element={<OpenSwaps />} path="open-swap" />
           <Route element={<Review />} path="review-swap" />
           <Route element={<Create />} path="create-swap" />
+          <Route element={<Resolve />} path="resolve-swap" />
         </Route>
       </Routes>
     </div>
