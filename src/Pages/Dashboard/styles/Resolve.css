@@ -1,9 +1,8 @@
 .border {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
-  height: 80px;
+  padding: 0px 20px;
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px;
@@ -13,7 +12,9 @@
 .border .btn-div .cancel {
   background-color: #ff2525;
   color: white;
-  width: 160px;
+  min-width: 160px;
+  width: 100% !important;
+  max-width: none !important;
 }
 .offered-nft .add-bnb h1 {
   font-size: 20px;

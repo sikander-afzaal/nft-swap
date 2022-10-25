@@ -9,7 +9,15 @@ const Resolve = () => {
         You created a swap offer for 0xc55…000. Now it's their turn. They have
         to respond to your offer now to make it work.
       </p>
-      <div className="border">
+      <div className="border steps-div">
+        <div className="left-step">
+          <h2>1</h2>
+          <div className="desc-step">
+            <h4>Step 1 of 2</h4>
+            <h3>Resolve Swap</h3>
+            <p>Select the NFTs you want to swap.</p>
+          </div>
+        </div>
         <div className="btn-div">
           <button className="back">Back</button>
           <button className="cancel">Cancel Swap</button>
