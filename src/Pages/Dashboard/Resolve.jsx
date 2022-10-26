@@ -31,6 +31,7 @@ const Resolve = () => {
             <h2>1 BNB</h2>
             <h2>1 NFTs</h2>
           </div>
+          {/* this is the div where the nft are showed (classname will be offered nft)*/}
           <div className="offered-nft">
             <div className="add-bnb">
               <div className="input-div">
@@ -39,7 +40,13 @@ const Resolve = () => {
               </div>
             </div>
             <NftBox />
+            <NftBox />
+            <NftBox />
+            <NftBox />
+            <NftBox />
+            <NftBox />
           </div>
+          {/* //////////////////////////////// */}
         </div>
         <img src="/assets/logo-inverted.png" alt="" className="swap-img" />
         <div className="flex-col">
@@ -53,6 +60,9 @@ const Resolve = () => {
               <h1>No NFTs Selected</h1>
               <p>Waiting for 0xc55…4c1 to select the NFTs.</p>
             </div>
+            <NftBox />
+            <NftBox />
+            <NftBox />
           </div>
         </div>
       </div>

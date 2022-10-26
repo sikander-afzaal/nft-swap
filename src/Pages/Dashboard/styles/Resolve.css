@@ -24,3 +24,6 @@
 .offered-nft .add-bnb p {
   color: rgba(255, 255, 255, 0.2);
 }
+.offered-nft .add-bnb {
+  min-height: 247px;
+}

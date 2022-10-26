@@ -96,7 +96,7 @@
   .offered-nft {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 1fr;
+    grid-auto-rows: 250px;
   }
   .offered-nft .add-bnb {
     height: 100%;
